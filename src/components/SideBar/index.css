@@ -1,0 +1,35 @@
+.sidebar {
+  width: 200px;
+  background-color: white;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-list-item {
+  padding-left: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid transparent;
+  border-right: 7px solid transparent;
+}
+
+.orders {
+  color: rgb(0, 195, 255);
+  background-color: #e7feff;
+  border-right: 3px solid rgb(0, 195, 255);
+}
+
+.sidebar-btn {
+  all: unset;
+  margin-left: 10px;
+  flex-grow: 1;
+  padding: 16px 0;
+  padding-left: 10px;
+}

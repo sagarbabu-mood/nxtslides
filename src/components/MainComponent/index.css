@@ -1,0 +1,50 @@
+.bg-container {
+  background-color: #f2f2f2;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.order {
+  background-color: white;
+  width: 100px;
+  text-align: center;
+  height: 40px;
+  font-weight: 14px;
+  border-width: 0px;
+  color: rgb(0, 195, 255);
+}
+
+.span-txt {
+  color: grey;
+  margin-left: 10px;
+}
+
+.tabs-container {
+  margin-bottom: 30px;
+}
+
+.tabs {
+  background-color: transparent;
+  border: 0px;
+  color: #333333;
+  margin-right: 14px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.settings-img {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+
+.pending {
+  color: rgb(0, 195, 255);
+  border-bottom: 2px solid rgb(0, 195, 255);
+}
